@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/deault_avatar"
+        android:id="@+id/usersingleimage" />
+
+    <TextView
+        android:id="@+id/userdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/usersingleimage"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/usersingleimage"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:text="Display Name" />
+
+    <TextView
+        android:id="@+id/userstatussingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/userdisplay"
+        android:layout_below="@+id/userdisplay"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        tools:text="User Default Status" />
+
+    <ImageView
+        android:id="@+id/user_single_online_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/userdisplay"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/presence_online" />
+
+</RelativeLayout>

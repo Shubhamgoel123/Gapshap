@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gapshap</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="auth_failed" />
+    <string name="item">Item</string>
+    <string name="all_users">All Users</string>
+    <string name="logout">LogOut</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_name">Display Name</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="total_friends">Total Friend</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="default_status">Status</string>
+</resources>

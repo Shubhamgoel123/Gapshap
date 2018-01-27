@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="64dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/deault_avatar"
+        android:id="@+id/usersingleimagerequest" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/usersstatusrequest"
+        android:layout_alignTop="@+id/usersingleimagerequest"
+        android:layout_marginStart="23dp"
+        android:text="Username"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/usersingleimagerequest"
+        />
+    <TextView
+        android:id="@+id/userdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/usersstatusrequest"
+        android:layout_alignTop="@+id/usersingleimagerequest"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/usersingleimagerequest"
+        android:text="Status"
+        android:textColor="@android:color/black"
+         />
+
+    <Button
+        android:id="@+id/usersaccept"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignStart="@id/userdisplay"
+        android:layout_below="@id/userdisplay"
+        android:layout_marginTop="5dp"
+        android:text="ACCEPT"
+        android:background="@android:color/holo_green_light"
+         />
+
+    <Button
+        android:id="@+id/usersdecline"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="130dp"
+        android:layout_alignStart="@id/usersaccept"
+        android:layout_below="@id/userdisplay"
+        android:layout_marginTop="5dp"
+        android:text="DECLINE"
+        android:background="@android:color/holo_red_light"
+        />
+
+</RelativeLayout>

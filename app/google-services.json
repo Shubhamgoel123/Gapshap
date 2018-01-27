@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "8369265771",
+    "firebase_url": "https://gapshap-f6e73.firebaseio.com",
+    "project_id": "gapshap-f6e73",
+    "storage_bucket": "gapshap-f6e73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8369265771:android:4752e9ccba41e9b0",
+        "android_client_info": {
+          "package_name": "com.example.kachucool.gapshap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8369265771-8tdm3h8uhpv3f33l6977bcq8i7reril3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kachucool.gapshap",
+            "certificate_hash": "cab2b8523340b47e90e1fd1688795ba6b76a0966"
+          }
+        },
+        {
+          "client_id": "8369265771-qba96hlnr45lcd76kshau72nbkpotpaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzhiJwOVCaNYRceTCUiWZ7bSl-FajqvMo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8369265771-qba96hlnr45lcd76kshau72nbkpotpaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
